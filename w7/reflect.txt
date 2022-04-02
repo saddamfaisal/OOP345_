@@ -1,0 +1,38 @@
+
+//Name:           SADDAM FAISAL
+// Student Number: 118406198
+// Email:          sfaisal6@myseneca.ca
+// Date:           15/11/2020
+/*I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.*/
+
+
+After I did the workshope, I learned many of the new concepts in c++ language.
+
+First,I learned the STL container concept which is acollection of objects of the 
+
+same type .Sequance container is one of the basic types of container that controll
+
+in the order of elements by using vector and list.Vector containers have their element 
+
+stored contiguausc which means that can access the element not only by iterators ,but also 
+
+by pointers elements.Seconf,I learned how I use numeric library that help to implement many
+
+of the mathmatical operations .Third,I learned lambda expression which is away to define
+
+anonymous function.It consists of three parts capture clause ,parameter list,and  lambada body.
+
+STL function that I used
+ sort I use it to sort elements in range.
+ any_of to test any condition in the range if fulfill condition
+ for_each to apply function to range
+ copy_if to copy certain elements in range
+ count_if to count elements fuifill the condition
+ push_back to add elements to range
+
+The advantages of use STL .It maked code reuse ,efficiency ,accurate and less bugging ,more readable and give us 
+good knowledge of data structure and algorithms.
+
+we could redesign sort function to prevent the client to specify an invalid string, 
+ allowing any error to be detected by the compiler by take the ownership of source and using smart pointer classes.
+

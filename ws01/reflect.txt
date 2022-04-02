@@ -1,0 +1,38 @@
+ //Name:           SADDAM FAISAL
+// Student Number: 118406198
+// Email:          sfaisal6@myseneca.ca
+// Date:           26/09/2020
+
+
+
+
+
+I learned from this workshop how I declare command line in the main function by 
+
+writing the form int main() and the arguments between the brackets that will deal with them .
+
+Then I learned the concept of linkage that means how the compiler views the files in the linker
+
+during run the files.There are two types internal and external linkage.First,external linkage
+
+is avariable defined globally that can be used in two or more units for example :g_sysclock
+
+in our code .second, internal linkage will be see it in one coding unit that means we can
+
+use it just in one file.The way to declare variable in the form of internal linkage provide 
+
+the word static for example:for example static int counter in event.cpp .The usage is useful
+
+to prevent complicated errors when we works with big projects with every call this variable 
+
+will have a new that will save alot of time of define new variable to save the new value.
+
+Also; I learned about static variable which is avariable keeps its lifetime till the end of 
+
+the code when we declare it that means allocate once in the memory and does not deallocate 
+
+as long as the program does .It is useful to achieve the programming purposes because it is 
+
+easy to access that variable anytime and it has one instance that make it more efficient
+
+performance in some programming cases.

@@ -1,0 +1,47 @@
+
+//Name:           SADDAM FAISAL
+// Student Number: 118406198
+// Email:          sfaisal6@myseneca.ca
+// Date:           22/11/2020
+/*I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.*/
+
+I learned from this workshop the main role of smart pointer that they combine many of useful programming tasks
+
+It can be used as template class which is overload with * and-> operator.Unique_ptr,shared_ptr,auto_ptr are forms that 
+
+represent smart pointers .Unique_ptr is a container of raw pointer that prevents copying of its contained pointer.Shared_ptr 
+
+is define in the header memory and it is a container of raw pointer .auto_ptr_ is atemplate class represented by object that
+
+stores pointer.The advantage that smart pointer syntax provides  explicit mechanism way of managing a resource automatic
+
+and prevents resource leak when recource managment conduct implicity for example :
+
+List<Product> mergeSmart(const List<Description>& desc, const List<Price>& price) {
+		List<Product> priceList;
+		
+		
+		for (size_t i = 0; i < desc.size(); i++) {
+
+			for (size_t j = 0; j < price.size(); j++) {
+
+				if (desc[i].code == price[j].code) {
+					std::shared_ptr<Product> tmpy(new Product(desc[i].desc, price[j].price));
+					tmpy->validate();
+					priceList += tmpy;
+				}
+			}
+		}
+The difference between raw and smart pointer syntax
+
+The differencea are in using the derefrence operator 
+A raw pointer declared in the form:
+Product* tmpy = new Product(desc[i].desc, price[j].price);
+, a dereferencing operator is required   to make tmpy  identifier  a raw pointer.
+while a smart pointer is actually a templated class (Product):
+std::shared_ptr<Product> tmpy{ new Product(desc[i].desc, price[j].price) };
+
+shared_ptr is a smart pointer that maintains refrence counting ownership and the raw pointer will be destroys 
+when all the copies of tmpy had been destroyed.
+
+ 

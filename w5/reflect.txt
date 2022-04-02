@@ -1,0 +1,28 @@
+//Name:           SADDAM FAISAL
+// Student Number: 118406198
+// Email:          sfaisal6@myseneca.ca
+// Date:           27/10/2020
+/*I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.*/
+
+
+
+I learned from this workshop many of the new programming concepts.First,I learn how to declare atemplate for class by write the prototype 
+
+before the class template <typename T>andI learned how to use it ,and how to use and declare template function.Second,I learned functor 
+
+that works as function which is object can be called as normal function as I use it in spellChecker moduel in the  void operator()(string& text)const.
+
+The benefit of use it is more flexible than function and can carry state information.Third,I learned lambada expression which is a way to define function 
+
+without literally having complete defintion.The syntax pf lambada consists of three parts capture list[],function argyments,and function body{};when call the lambada function it 
+
+uses the keyword auto .The benefits of use it make our code more readable and increase  code readability.The differences between lambada and functor usage it is better to use 
+
+when you want to access directly to the variable and we need to call smallpiece of code to be run one otherwise it is better to use functor.Fourth;I learned exception 
+
+which use three words try, catch,throw .when have to exclude some points from the logical target.In the counstructor spellchecker we can change code to achieve the same results without exceptions by 
+
+use the if conditional,but use exception is more easier and less use of memory.It can change the idental logic in loadin filedata in movie and book moduels by inherit between the two classes book and movie.
+
+The default counstructor necessary if we remove it the destructor will not be able to free the memory ,so we will got memory leake.
+

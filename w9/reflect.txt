@@ -1,0 +1,23 @@
+
+//Name:           SADDAM FAISAL
+// Student Number: 118406198
+// Email:          sfaisal6@myseneca.ca
+// Date:           28/11/2020
+/*I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.*/
+
+
+I learn from this workshop how can I creat thread function by use the keyword thread 
+
+then the name of the thread and implement the arguments of the function.I use binary file 
+
+because is more faste specially when we have multi threads.I create by use the keyword ifstream
+
+for read then allocate dynamic memory for content and then start the read by put the methode the 
+
+name of the file.read(); .It is important to bind function because it gives a new function obje
+
+and  acts and modifeis the function according to the desired result.The advantages of multi threa
+
+It simplifies the way of writting the code and it improves the efficeiently and performance and make 
+
+the code more readble and easer for modification.

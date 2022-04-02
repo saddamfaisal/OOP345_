@@ -1,0 +1,34 @@
+
+//Name:           SADDAM FAISAL
+// Student Number: 118406198
+// Email:          sfaisal6@myseneca.ca
+// Date:           08/11/2020
+/*I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.*/
+I learned from this workshop how to use and designn class template and template function such as 
+
+template the function void select(T test, std::list<const Vehicle*>& vehicles) at autoshop moduel and
+
+ho to allocate and deallocate dynamically memory for objects of Vector .Second,I learned hoe to declare and deal
+
+with lambada function which i use it to make my code more readability.Fourth ,I learned how to use the exception
+
+from diferent types such as throw,try and catch which i used them in car moduel the purpose of use them to force
+
+code to recognize the errors to achieve orogramming target.Finally,I did not face any difficult during do my project.
+
+
+Why do you need to deallocate the dynamically allocated memory in your vector?
+we need to deallocate memory in vector because vector is class template defines data
+and it has to be deallocated to prevent memory leak.
+
+
+How can the function `loadData()` detect what went wrong?
+we can make loadData detect the errors by use try and catch exceptions .
+
+
+In this workshop you had to use `std::list<sdds::Vehicle*>` and `std::vector<sdds::Vehicle*>` to store a collection of vehicles as pointers.
+ Could you have used `std::list<sdds::Vehicle>` and `std::vector<sdds::Vehicle>` instead? **Justify your answer?
+we could not use std::list<sdds::Vehicle>` and `std::vector<sdds::Vehicle> because we need to recieve address of function to excuit the function inside vector 
+as vector object stores elements contiguausly.
+
+

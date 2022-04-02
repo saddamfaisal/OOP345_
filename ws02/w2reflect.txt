@@ -1,0 +1,32 @@
+//Name:           SADDAM FAISAL
+// Student Number: 118406198
+// Email:          sfaisal6@myseneca.ca
+// Date:           26/09/2020
+
+//> I have done all the coding by myselfand only copied the code that my professor provided to complete my workshopsand assignments.
+
+
+
+
+After I did the workshop I learned from this workshop how to read file in command line 
+
+by implying the file in the project and type the name of the file 
+
+in the command line .I learned the use of chrono library whick include three multiple
+
+function clocks ,time points,and duration.Then I learned how to 
+
+define variable of type string .I learned the insetion operator 
+
+which we usually use for output.I learned how to read file by using ifstream and how to end
+
+reading by using eof also how to read space by use the method getline() as in the function Recordset(char*).
+
+Also, I learned the important of use copy counstructur that will make less work with the same functionality.
+
+The important and hardest part I learned move semantics wich allow us to move objects around 
+
+and transfer the ownership of a resource possessed by object to another object.
+
+
+

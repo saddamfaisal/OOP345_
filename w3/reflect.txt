@@ -1,0 +1,46 @@
+//Name:           SADDAM FAISAL
+// Student Number: 118406198
+// Email:          sfaisal6@myseneca.ca
+// Date:           13/10/2020
+
+
+
+
+By doing this workshop ,I learned how to declare class template by use the 
+
+prefix keyword template and follow by the general form for instance:
+
+template < class T, unsigned int N>class Set {};The purpose of use parameter type 
+
+because we want to make the type general works with different types of data to reuse 
+
+the code , readability and  effeciently of code we can define more than one data type
+	 
+ by using comma to separate between the kind of data. we can not define template function
+
+inside the class when we define template function we have to write the template prototype again.
+
+The template of function is different from the template of class we can declare it in the class and define it outside the class
+
+compared to the normal class member which the declaration and defintion have to be in the header
+
+file ,so when we run the code the compiler has both the declaration and defintion that does not
+
+need to generat any defintion for class template.Then I learned the template inheritanec apply to generate data type and 
+
+ pass it between the base and derived class.Also ,I learned the specialization we use it to do
+
+template for special types of data except the fundamental data types .when we have  char pointer we have to use specialization
+
+ by use the word template<> ,but the parametere supposed to be empty fter that we declare the special 
+
+type meaningly.The reason for specializing the operator+= member function
+
+because it has not have fundamenta types of data ,so we have to do template specializing.
+
+The reason for use initial value to set the initial value for both templates .
+
+The reason for defining class variable outside the class because we hav to define
+
+ member function template  outside of the class according the member function template rules.
+

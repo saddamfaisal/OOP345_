@@ -1,0 +1,48 @@
+
+//Name:           SADDAM FAISAL
+// Student Number: 118406198
+// Email:          sfaisal6@myseneca.ca
+// Date:           17/10/2020
+
+//> I have done all the coding by myselfand only copied the code that my professor provided to complete my workshopsand assignments.
+
+
+
+
+I learned from this workshop how to declare array of addresses
+
+dynamically by declare with pointer to pointer(**).Second,I learned a new
+
+concept is similar to inheritance .It is a composition which form 
+
+a strong relationship and also have objects from other class that means 
+
+when we creat child object does not have lifecycle and if parent object 
+
+delete the parent ,all child objects will also be deleted For instance :
+
+if we delete the parent object reservation all the child objects in restaurants 
+
+will die .The child objects  can not be created indepently.Third;
+
+I lerarned the concept of aggregation .It is arelationship between the
+
+child and parent objects , but the ownership of a child object can not belong 
+
+to another objects and the child objects can be found independently without 
+
+the parent objects.The difference of implementation of a compostion is make strong
+
+relationship between child and parent ,the child object can not stay alive witout parent
+
+and we can use with different parent.The aggregation forms weak relation between the 
+
+parent and child objects and the child can stay independently without the parent objects 
+
+and we can not use it with other parent objects.The difference between the implementation of 
+
+move and copy functions in composition when you delete parent object you will not copy or move 
+
+the child and parent while in aggregation when you delete the parent object and copy or move 
+
+you will copy or move the child objects.I did find so difficulty in general during do the code.
